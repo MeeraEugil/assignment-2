@@ -1,0 +1,16 @@
+/* Style for all buttons with the 'btn' class */
+.btn {
+    background-color: orange; /* Orange background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size for text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color on hover */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: darkorange; /* Darker orange background on hover */
+}

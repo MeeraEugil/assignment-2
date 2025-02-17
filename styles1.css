@@ -1,0 +1,30 @@
+/* Apply styles to the unordered list with the id 'clickable-list' */
+#clickable-list {
+    list-style-type: circle; /* Change the list style to circle */
+}
+
+#clickable-list li {
+    font-style: italic; /* Change font style of list items to italic */
+}
+
+#clickable-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Default link color */
+}
+
+/* Link Pseudo-Classes */
+#clickable-list a:link {
+    color: blue; /* Color for unvisited links */
+}
+
+#clickable-list a:visited {
+    color: purple; /* Color for visited links */
+}
+
+#clickable-list a:hover {
+    color: red; /* Color for when the link is hovered */
+}
+
+#clickable-list a:active {
+    color: green; /* Color for when the link is active (clicked) */
+}
